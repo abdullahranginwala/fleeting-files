@@ -1,1 +1,19 @@
-node_modules
+node_modules/
+
+/dist/
+/build/
+/backend/node_modules/
+/frontend/node_modules/
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# macOS
+.DS_Store
+
+# IDE-specific
+.vscode/
+
+# Environment variables
+.env
